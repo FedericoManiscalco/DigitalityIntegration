@@ -26,7 +26,7 @@ public class EmployeeController {
 
 	@GetMapping("/getHelloWorld")
 	public String getHelloWorld() {
-		return "hello Worl";
+		return "hello World";
 	}
 	// vediamo se funge
 	// vediamo se funge2.0
