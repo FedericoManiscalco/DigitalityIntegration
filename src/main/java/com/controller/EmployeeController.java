@@ -24,6 +24,11 @@ public class EmployeeController {
 		return es.findAll();
 	}
 
+	@GetMapping("/getHelloWorld")
+	public String getHelloWorld() {
+		return "hello World";
+	}
+
 //	@GetMapping("/getEmployeesFewestCustomers")
 //	public Employee findEmployeeWithFewestCustomers() {
 //		return es.findEmployeeWithFewestCustomers();
